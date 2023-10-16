@@ -1,0 +1,370 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+    font-family:cursive;
+}
+.head{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 0 20px 0;
+}
+.head1{
+    color: chartreuse;
+    font-weight: 800;
+}
+.head2{
+    display: grid;
+    grid-template-columns: 30% 20% 30% 20%;
+}
+.head3{
+    display: none;
+}
+.container1{
+    background-image: url(./images/1.jpg);
+    height: 500px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: grid;
+    align-content: center;
+}
+.bold{
+    font-size: 25px;
+}
+.span1{
+    color: chartreuse;
+    margin-left: 5px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.bold div{
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+}
+.span2{
+    margin-left: 635px;
+}
+.resume{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    width: 11%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: chartreuse;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+.box{
+    width: 80%;
+    margin: auto;
+}
+.box{
+    padding-bottom: 20px;
+}
+.container3 h3{
+    text-align: center;
+}
+.container4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+}
+.left hr{
+    margin: 20px 0px 20px 0px;
+}
+.container5{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.container5 h4{
+    margin: 0px;
+}
+.container6{
+    background-color: rgb(224, 222, 222);
+}
+.education{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px 50px 0px;
+}
+.dark{
+    text-align: center;
+}
+.one{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    color: white;
+    margin-top: 50px;
+}
+.oneleft,.oneright{
+    background-color: rgb(25, 25, 117);
+    margin-right: 15px;
+}
+.oneleft div{
+    padding: 5px 5px 5px 10px;
+}
+.oneright div{
+    padding: 5px 5px 5px 10px;
+}
+.skills{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.center{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.progressbox{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 0 30px 0;
+}
+.point{
+    display: grid;
+    grid-template-columns: 85% 10%;
+    font-size: 8px;
+    justify-content: space-between;
+}
+.color1{
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+    border-radius: 5px;
+}
+.color2{
+    background-color: chartreuse;
+    width: 90%;
+    border-radius: 5px;
+    color: chartreuse;
+}
+.color3{
+    background-color: chartreuse;
+    width: 85%;
+    border-radius: 5px;
+    color: chartreuse;
+}
+.color4{
+    background-color: chartreuse;
+    width: 97%;
+    border-radius: 5px;
+    color: chartreuse;
+}
+.color5{
+    background-color: chartreuse;
+    width: 90%;
+    border-radius: 5px;
+    color: chartreuse;
+}
+.color6{
+    background-color: chartreuse;
+    width: 85%;
+    border-radius: 5px;
+    color: chartreuse;
+}
+.color7{
+    background-color: chartreuse;
+    width: 85%;
+    border-radius: 5px;
+    color: chartreuse;
+}
+.color8{
+    background-color: chartreuse;
+    width: 85%;
+    border-radius: 5px;
+    color: chartreuse;
+}
+.color9{
+    background-color: chartreuse;
+    width: 80%;
+    border-radius: 5px;
+    color: chartreuse;
+}
+.percentage1{
+    color: blueviolet;
+}
+.lang{
+    margin: 20px 0 20px 0;
+}
+.portfolio{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.portfolio hr{
+    margin: 30px 0 30px 0;
+}
+.column{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.size1 img{
+    width: 100%;
+    height: 250px;
+}
+.size2 img{
+    width: 100%;
+    height: 515px;
+    margin: 10px 0  0 0;
+}
+.size3 img{
+    width: 100%;
+    height: 250px;
+}
+.size1 div{
+    margin: 10px 0 10px 0;
+}
+.size3 div{
+    margin: 10px 0 10px 0;
+}
+.paint{
+    background-color: rgb(224, 222, 222);
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.contact hr{
+    margin: 30px 0 30px 0;
+}
+.two{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    justify-content: space-between;
+}
+.name{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+}
+.name input{
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.subject input{
+    width: 98%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+textarea{
+    width: 98%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height: 110px;
+    padding: 10px;
+}
+.submit input{
+    width: 40%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: chartreuse;
+    color: white;
+}
+.about{
+    text-align: left;
+}
+.about h3{
+    margin: 0px;
+}
+.about h4{
+    margin: 25px 0 0 0;
+}
+.about img{
+    width: 40%;
+    margin-top: 30px;
+}
+.bottom{
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.right img{
+    width: 60%;
+    height: 350px;
+    margin: 60px 0 0 100px;
+}
+
+@media(max-width:576px){
+    .span2{
+        margin-left: 150px;
+    }
+    .span1{
+        margin-left: 5px;
+        font-size: 30px;
+    }
+    .container4,.container5,.one,.column,.two,.name,.progressbox{
+        display: block;
+    }
+    .right img{
+        margin: 40px 0px 30px 65px;
+    }
+    .oneleft{
+        margin: 0 0 10px 0;
+    }
+    .oneright{
+        margin: 10px 0 0 0;
+    }
+    .size2 img{
+        height: 250px;
+        margin: 0;
+    }
+    .name input{
+        width: 100%;
+    }
+    .name div{
+        margin: 20px 0 0 0;
+    }
+    .subject input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .head2{
+        display: none;
+    }
+    .head3{
+        display: block;
+        text-align: right;
+    }
+    .list{
+        display: none;
+    }
+    .menu:hover{
+        .list{
+            display: block;
+        }
+    }
+    .icon{
+        text-align: center;
+    }
+    .resume{
+        width: 35%;
+        grid-template-columns: 40% 40%;
+        margin: auto;
+    }
+}
+
+
+
+
